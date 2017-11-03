@@ -2,6 +2,7 @@
 Red Neuronal (Perceptron): AND
 Implementado en Python
 
+```python
   umbral = 0.5
   tasa_de_aprendizaje = 0.1
   pesos=[0,0]
@@ -17,3 +18,4 @@ Implementado en Python
 
   #probando la red neuronal
   print perceptronAND.sumarEntradasYPesos((1,1))>umbral
+```
